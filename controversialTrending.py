@@ -26,7 +26,7 @@ if __name__ == "__main__":
     top = sc.parallelize(top10)
 
     #top.saveAsTextFile(output_path)
-    top.saveAsTextFile("output")
+    top.saveAsTextFile(output_path)
 
 
     #videosGroup = videoslikes.groupByKey().map( sort_and_calculate )
